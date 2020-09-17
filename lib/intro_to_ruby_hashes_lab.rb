@@ -7,8 +7,9 @@ def read_from_hash(key, value)
   
 end
 
-def updating_counting_hash(key, value)
-  
+def updating_counting_hash(hash, key)
+  hash[key]
+  else hash[key] += 1
 end
 
   
