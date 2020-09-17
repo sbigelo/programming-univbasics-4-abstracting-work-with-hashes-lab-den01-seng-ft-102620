@@ -3,8 +3,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(key, value)
-  if {key => value}
-  else print nil
+  key {value => }
+  
 end
 
 def updating_counting_hash(key, value)
